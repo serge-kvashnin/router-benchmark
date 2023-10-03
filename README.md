@@ -40,9 +40,11 @@ cache).
 | FastRouteBench  | benchFirstRoute |     | 100  | 5   | 1.305mb  | 5.343ms  | ±4.09%  |
 | FastRouteBench  | benchLastRoute  |     | 100  | 5   | 1.307mb  | 5.721ms  | ±2.50%  |
 | FastRouteBench  | bench404        |     | 100  | 5   | 1.314mb  | 5.784ms  | ±3.69%  |
++-----------------+-----------------+-----+------+-----+----------+----------+---------+
 | PathfinderBench | benchFirstRoute |     | 100  | 5   | 1.243mb  | 1.947ms  | ±11.54% |
 | PathfinderBench | benchLastRoute  |     | 100  | 5   | 1.243mb  | 1.605ms  | ±6.75%  |
 | PathfinderBench | bench404        |     | 100  | 5   | 1.242mb  | 1.613ms  | ±2.42%  |
++-----------------+-----------------+-----+------+-----+----------+----------+---------+
 | SymfonyBench    | benchFirstRoute |     | 100  | 5   | 2.599mb  | 5.363ms  | ±1.44%  |
 | SymfonyBench    | benchLastRoute  |     | 100  | 5   | 2.906mb  | 13.368ms | ±3.13%  |
 | SymfonyBench    | bench404        |     | 100  | 5   | 2.908mb  | 13.194ms | ±3.92%  |
@@ -66,9 +68,11 @@ In this scenario, we consider the use of compiled routes cache stored in a file.
 | FastRouteBench  | benchFirstRoute |     | 100  | 5   | 1.317mb   | 0.845ms | ±12.46% |
 | FastRouteBench  | benchLastRoute  |     | 100  | 5   | 1.319mb   | 0.934ms | ±3.83%  |
 | FastRouteBench  | bench404        |     | 100  | 5   | 1.327mb   | 0.868ms | ±10.72% |
++-----------------+-----------------+-----+------+-----+-----------+---------+---------+
 | PathfinderBench | benchFirstRoute |     | 100  | 5   | 850.496kb | 0.122ms | ±5.55%  |
 | PathfinderBench | benchLastRoute  |     | 100  | 5   | 850.496kb | 0.144ms | ±6.33%  |
 | PathfinderBench | bench404        |     | 100  | 5   | 849.944kb | 0.152ms | ±13.64% |
++-----------------+-----------------+-----+------+-----+-----------+---------+---------+
 | SymfonyBench    | benchFirstRoute |     | 100  | 5   | 2.134mb   | 1.278ms | ±13.56% |
 | SymfonyBench    | benchLastRoute  |     | 100  | 5   | 2.134mb   | 1.058ms | ±10.75% |
 | SymfonyBench    | bench404        |     | 100  | 5   | 2.134mb   | 1.268ms | ±8.67%  |
@@ -93,9 +97,11 @@ PHP's traditional request-response nature, using long-running processes could be
 | FastRouteBench  | benchFirstRoute |     | 10000 | 5   | 903.176kb | 0.001ms | ±4.48%  |
 | FastRouteBench  | benchLastRoute  |     | 10000 | 5   | 903.176kb | 0.006ms | ±4.65%  |
 | FastRouteBench  | bench404        |     | 10000 | 5   | 903.136kb | 0.018ms | ±6.94%  |
++-----------------+-----------------+-----+-------+-----+-----------+---------+---------+
 | PathfinderBench | benchFirstRoute |     | 10000 | 5   | 1.023mb   | 0.002ms | ±4.30%  |
 | PathfinderBench | benchLastRoute  |     | 10000 | 5   | 1.023mb   | 0.009ms | ±9.26%  |
 | PathfinderBench | bench404        |     | 10000 | 5   | 1.023mb   | 0.009ms | ±12.37% |
++-----------------+-----------------+-----+-------+-----+-----------+---------+---------+
 | SymfonyBench    | benchFirstRoute |     | 10000 | 5   | 2.840mb   | 0.012ms | ±12.06% |
 | SymfonyBench    | benchLastRoute  |     | 10000 | 5   | 2.840mb   | 0.014ms | ±13.95% |
 | SymfonyBench    | bench404        |     | 10000 | 5   | 2.840mb   | 0.020ms | ±8.30%  |
